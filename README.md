@@ -10,7 +10,7 @@ Paper (arXiv): [Link](https://arxiv.org/abs/2103.16762)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-image-semantic-segmentation/weakly-supervised-semantic-segmentation-on)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on?p=weakly-supervised-image-semantic-segmentation)
 
 
-## My Environment
+## Our Environment
 ### Environment 1
 - Operating System:
   - Arch Linux
@@ -57,7 +57,7 @@ Paper (arXiv): [Link](https://arxiv.org/abs/2103.16762)
 - [DeepLabV2-MSCOCO](https://drive.google.com/drive/u/1/folders/166gMEci-fbmymBmLaKqyNuCfvubJTpHD)
 
 ## Setup data
-### My directory structure
+### Our directory structure
 ```
 ├── Data
 │   ├── GCN4DeepLab
