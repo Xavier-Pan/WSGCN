@@ -1,6 +1,6 @@
 # Weakly-Supervised Image Semantic Segmentation Using Graph Convolutional Networks (ICME 2021)
 
-Pytorch Implementation of WSGCNI. WSGCNI is heavily based on [1] and [2]. 
+An Official Pytorch Implementation of WSGCNI. WSGCNI is heavily based on [1] and [2]. 
 
 Project Page: [Link](http://mapl.nctu.edu.tw/WSGCN/)
 
@@ -10,54 +10,24 @@ Paper (arXiv): [Link](https://arxiv.org/abs/2103.16762)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-image-semantic-segmentation/weakly-supervised-semantic-segmentation-on)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on?p=weakly-supervised-image-semantic-segmentation)
 
 
-## Our Environment
-### Environment 1
-- Operating System:
-  - Arch Linux
-- Memory
-  - 64GB
-- CUDA:
-  - CUDA V9.0.176 
-- GPU:
-  - GTX 1070 8G
-- Nvidia driver:
-  - 460.67
-- Python:
-  - python 3.9.2
-- Python package:
-  - scipy, fire, torch, tensorboardX, pillow, torchvision, cython, tqdm, pydensecrf...
-- Pytorch:
-  - 1.8.1
-### Environment 2
-- Operating System:
-  - Ubuntu 18.04  
-- Memory
-  - 256 GB
-- CUDA:
-  - CUDA V11.1.74 
-- GPU:
-  - NVIDIA Tesla V100 32GB x4
-- Nvidia driver:
-  - 450.80
-- Python:
-  - python 3.6.10
-- Python package:
-  - scipy, fire, torch, tensorboardX, pillow, torchvision, cython, tqdm, pydensecrf...
-- Pytorch:
-  - 1.8.0
+## Prerequisite
+- Tested on Arch Linux, CUDA9.0, Python3.9, Pytorch 1.8.1, and NVIDIA GTX 1070; Tested on Ubuntu18.04, CUDA11.1, Python3.6, Pytorch 1.8.0, and NVIDIA Tesla V100
+- Python dependencies (scipy, fire, torch, tensorboardX, pillow, torchvision, cython, tqdm, and pydensecrf...)
+- PASCAL VOC 2012 datasets
+- Pre-trained model for IRN
  
 ## Download the VOC12 dataset
 - [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
 ## Download the VOC12 augmentation dataset
 - [Semantic Boundaries Dataset and Benchmark](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0)
-## Download the pre-train model for IRN
+## Download the pre-trained model for IRN
 - [IRN](https://drive.google.com/drive/u/1/folders/1_-AdHxZHR4_mGY3K_o1P1XNOHKD6Qq_A)
-## Download the pre-train model for DeepLabV2
+## Download the pre-trained model for DeepLabV2
 - [DeepLabV2-ImageNet](https://drive.google.com/drive/u/1/folders/1wxJTdFfkqHuPGotu6-oRVW0AxL-z_8gP)
 - [DeepLabV2-MSCOCO](https://drive.google.com/drive/u/1/folders/166gMEci-fbmymBmLaKqyNuCfvubJTpHD)
 
 ## Setup data
-### Our directory structure
+### Recommended directory structure
 ```
 ├── Data
 │   ├── GCN4DeepLab
