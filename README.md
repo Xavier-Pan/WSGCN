@@ -1,6 +1,6 @@
 # Weakly-Supervised Image Semantic Segmentation Using Graph Convolutional Networks (ICME 2021)
 
-An Official Pytorch Implementation of WSGCNI. WSGCNI is heavily based on [1] and [2]. 
+An Official Pytorch Implementation of WSGCN-I. WSGCN-I is heavily based on [1] and [2]. 
 
 Project Page: [Link](http://mapl.nctu.edu.tw/WSGCN/)
 
