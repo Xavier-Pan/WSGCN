@@ -21,10 +21,10 @@ Paper (arXiv): [Link](https://arxiv.org/abs/2103.16762)
 ## Download the VOC12 augmentation dataset
 - [Semantic Boundaries Dataset and Benchmark](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0)
 ## Download the pre-trained model for IRN
-- [IRN](https://drive.google.com/drive/u/1/folders/1_-AdHxZHR4_mGY3K_o1P1XNOHKD6Qq_A)
+- [IRN](https://drive.google.com/drive/folders/1bOLoWlTAwM-y4e7b61etGiO8DkpHQqOR?usp=sharing)
 ## Download the pre-trained model for DeepLabV2
-- [DeepLabV2-ImageNet](https://drive.google.com/drive/u/1/folders/1wxJTdFfkqHuPGotu6-oRVW0AxL-z_8gP)
-- [DeepLabV2-MSCOCO](https://drive.google.com/drive/u/1/folders/166gMEci-fbmymBmLaKqyNuCfvubJTpHD)
+- [DeepLabV2-ImageNet](https://drive.google.com/drive/folders/1bM6-OrvvdZSfqnD0ETHKIAwaC9QkVn6k?usp=sharing)
+- [DeepLabV2-MSCOCO](https://drive.google.com/drive/folders/1bMqJV9aOpq0S7bcZjRcKoKIe8o1UquJ2?usp=sharing)
 
 ## Setup data
 ### Recommended directory structure
